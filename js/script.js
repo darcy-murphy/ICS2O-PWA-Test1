@@ -31,7 +31,7 @@ function myButtonClicked() {
     "<p>Value is: " + slider.value + "</p>"
 }
 
-const randomNumber = Math.floor(Math.random() * 6) + 1;
+const randomNumber = Math.floor(Math.random() * 6) + 1
 
 /** 
  * This function updates the slider value.
