@@ -41,7 +41,7 @@ function updateSliderValue(valueFromSlider) {
     "The answer was, " + randomNumber + "!" + " You got it! Good job."
   
     // block of code to be executed if conditional is true
-  if (valueFromSlider != randomNumber) {
+  if (valueFromSlider != randomNumber) 
     document.getElementById("answer").innerHTML = 
     "The answer was, " + randomNumber + "!" + "Nice guess, but try again."
   }
