@@ -17,13 +17,6 @@
 }
 
 /**
- * This function updates the slider value.
- */
-function updateSliderValue(valueFromSlider) {
-  document.getElementById("slider-value").innerHTML = valueFromSlider
-}
-
-/**
  * This function displays the slider value.
  */
 function myButtonClicked() {
@@ -37,6 +30,7 @@ const randomNumber = Math.floor(Math.random() * 6) + 1
  * This function updates the slider value.
  */
 function updateSliderValue(valueFromSlider) {
+  document.getElementById("slider-value").innerHTML = valueFromSlider
   document.getElementById("answer").innerHTML =
     "The answer was, " + randomNumber + "!" + " You got it! Good job."
   
