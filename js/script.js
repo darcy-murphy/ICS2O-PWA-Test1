@@ -2,7 +2,7 @@
 
 // Copyright (c) 2020 Mr. Coxall All rights reserved
 //
-// Created by: Mr. Coxall
+// Created by: Darcy Murphy
 // Created on: Sep 2020
 // This file contains the JS functions for index.html
 
@@ -11,9 +11,9 @@
  */
  if (navigator.serviceWorker) {
   navigator.serviceWorker.register(
-    "/ICS2O-Unit5-01-HTML-Slider-Example/sw.js",
+    "/ICS2O-Unit5-01/sw.js",
     {
-      scope: "/ICS2O-Unit5-01-HTML-Slider-Example/",
+      scope: "/ICS2O-Unit5-01/",
     }
   )
 }
@@ -39,5 +39,5 @@ function updateSliderValue(valueFromSlider) {
     // block of code to be executed if conditional is true
   if (valueFromSlider != randomNumber) 
     document.getElementById("answer").innerHTML = 
-    "The answer was, " + randomNumber + " !" + "Nice guess, but try again."
+    "The answer was, " + randomNumber + " !" + " Nice guess, but try again."
   }
