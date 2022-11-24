@@ -13,7 +13,7 @@
   navigator.serviceWorker.register(
     "/ICS2O-Unit5-01/sw.js",
     {
-      scope: "/ICS2O-Unit5-01/",
+      scope:"/ICS2O-Unit5-01/",
     }
   )
 }
